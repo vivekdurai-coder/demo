@@ -1,0 +1,49 @@
+.juice-img {
+  background-repeat: no-repeat;
+  padding: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  #deliverimg {
+    width: 100%;
+  }
+  #Start {
+    border: solid 10px whitesmoke;
+    border-radius: 10px;
+  }
+  #Middle {
+    border: solid 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f5f5f5ed;
+  }
+  h4 {
+    background: green;
+    padding: 3%;
+    border-radius: 10px 10px 0px 0px;
+  }
+  h2 {
+    color: white;
+    background: red;
+    padding: 2%;
+    border-radius: 2px 2px 10px 10px;
+  }
+  body {
+    background: url("./Images/mob-back.jpg"), url("./Images//mob-back1.jpg");
+    background-attachment: fixed;
+    color: whitesmoke;
+    text-shadow: 2px 0px 0px #566725;
+  }
+  /* body {
+    color: white;
+    text-shadow: 2px 2px 2px red;
+  } */
+  .juice-img {
+    width: 100%;
+    background-size: 100% 100%;
+    border: dotted 1px red;
+    margin-top: 5%;
+    /* padding: 1%; */
+    border-radius: 0px 50px 0px 50px;
+  }
+}
